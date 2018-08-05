@@ -1,187 +1,285 @@
 <!DOCTYPE html>
 <html lang="ru">
-	<head>
+<head>
 	<meta charset="UTF-8">
 	<title>Pets</title>
-	<link rel="stylesheet" href="style/normalize.css">
-	<link rel="stylesheet" href="style/style.css">
-	</head>
-	<body class="page">
-		<header class="header">
-				<div class="hdr_logo">
-					<img class="logo" src="images/hdr_logo.png" alt="Лого">
-				</div>	
-				<div class="hdr_main-menu">
-					<div class="main-menu">
-						<nav>
-							<ul class="main-menu_list">
-								<li><a href="#section1">О питомнике</a></li>
-								<li><a href="#section2">Животные</a></li>
-								<li><a href="#section3">Отзывы</a></li>
-								<li><a href="#section4">Блог</a></li>
-								<li><a href="#section5">Контакты</a></li>	
-							</ul>
-						</nav>		
-						<span class="hdr_phone">+7 (925) 256 98 77</span>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="page">
+		<header>
+			<div class="hdr_container">
+				<div class="hdr_row">
+					<div class="hdr_logo">
+						
 					</div>
-					<div class="promo">		
-						<h1>Питомник породистых<br> животных рядом<br> с вашим домом</h1>
-						<span class="tagline">Животные как дети - им нужны мы</span>
-					</div>	
+					<div class="menu">
+						<nav>
+							<ul class="menu_list">
+								<li><a href="#about">О питомнике</a></li>
+								<li><a href="#breeds">Животные</a></li>
+								<li><a href="#rewievs">Отзывы</a></li>
+								<li><a href="#animals">Блог</a></li>
+								<li><a href="#contacts">Контакты</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="hdr_phone">
+						<a href="tel:+79252569877">+7 (925) 256 98 77</a>
+					</div>
 				</div>
+			</div>
 		</header>
 		<main>
-			<img src="images/about-kennel_top.png">
-			<section class="about-kennel" id="section1">
-				<div class="about-kennel_promo">
-					<h2 class="about-kennel-animals_h2">О питомнике</h2>
-					<p class="about-kennel-animals_p">Наш питомник - не просто дом для животных,<br> а семья из разных пород собак и кошек
-					</p>
-				</div>	
-				<div class="about-kennel_main">
-					<div class="about-kennel_img">	
-						<img class="french-bulldog" src="images/about-kennel_fr-bulldog.png" alt="Французский бульдог">
+			<div class="main_container">
+				<section>
+					<div class="promo_container">
+						<div class="promo_wrapper">
+							<div class="promo_info">
+								<h1>Питомник породистых<br> животных рядом<br> с вашим домом</h1>
+								<span class="tagline">Животные как дети - им нужны мы</span>
+							</div>
+						</div>
 					</div>	
-					<div class="about-kennel_list_link">
-						<ul class="about-kennel_list">
-							<li>Лучшие представители своей породы</li>
-							<li>Сбалансированный рацион питания питомца</li>
-							<li>Ежедневный уход и тренировки</li>
-							<li>Веселье, свежий воздух и отличная компания</li>
-						</ul>	
-					<div class="about-kennel_link">	
-						<a class="about-kennel_a" href="https://youtu.be/jnfTNquo2vM">Видео с наших прогулок<img class="arrow_yellow" src="images/about-kennel_arrow.png" alt="Жёлтая стрелка"></a>
-					</div>	
+				</section>
+				<section id="about">
+					<div class="about_container">
+						<div class="about_wrapper">
+							<div class="about_promo">
+								<h2 class="h2_white">О питомнике</h2>
+								<p class="paragraph_white">Наш питомник - не просто дом для животных,<br> а семья из разных пород собак и кошек</p>
+							</div>
+							<div class="about_box">
+								<div class="about_img">
+									<img class="about_fr_bulldog" src="images/about_img.png" alt="Французский бульдог">
+								</div>
+								<div class="about_advantages">
+									<ul class="about_list">
+										<li>Лучшие представители своей породы</li>
+										<li>Сбалансированный рацион питания питомца</li>
+										<li>Ежедневный уход и тренировки</li>
+										<li>Веселье, свежий воздух и отличная компания</li>
+									</ul>	
+									<div class="about_link">
+										<a href="https://youtu.be/jnfTNquo2vM">
+											Видео с наших прогулок
+											<div class="arrow_yellow">
+												
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>	
+						</div>
 					</div>
-				</div>	
-			</section>
-			<img src="images/about-kennel_bottom.png">
-			<section class="breeds_main" id="section2">
-				<h2 class="breeds-rewievs_h2">Наши породы</h2>
-				<div class="breeds_list-1">	
-					<div class="fr_bulldog">
-						<div class="breeds_h3">
-							<h3>Французский бульдог</h3>
+				</section>
+				<section class="breeds" id="breeds">
+					<div class="breeds_container">
+						<div><h2 class="h2_black">Наши породы</h2>
+						</div>
+						<div class="breeds_box">
+							<article class="breeds_item">
+								<div class="breeds_title">
+									<h3>Французский бульдог</h3>
+								</div>
+								<div class="breeds_about">
+									<div class="breeds_img">
+										<img class="breeds_dog" src="images/breeds_fr_bulldog.jpg" alt="Французский бульдог">
+									</div>
+									<div class="breeds_description">
+										<div class="breeds_text">
+											<p class="breeds_paragraph">Идеальный вариант городской собаки - они входят в тройку самых популярных собак на планете. Любят короткие прогулки и хорошо поспать.</p>
+										</div>
+										<div class="breeds_more">
+											<a class="violet_link" href="https://vk.com/epixx_pets?w=wall-166537407_2">
+												ПОСМОТРЕТЬ ЩЕНКОВ
+												<div class="arrow_purple">
+
+												</div>	
+											</a>
+										</div>
+									</div>
+								</div>
+							</article>
+							<article class="breeds_item">
+								<div>
+									<h3>Золотистый ретривер</h3>
+								</div>
+								<div class="breeds_about">
+									<div class="breeds_img">
+										<img class="breeds_dog" src="images/breeds_gl_retriever.jpg" alt="Золотистый ретривер">
+									</div>
+									<div class="breeds_description">
+										<div class="breeds_text">
+											<p class="breeds_paragraph">Добродушные, ориентированные на людей собаки. Они отлично ведут себя с детьми и больными. Могут быть повадырями.</p>
+										</div>
+										<div class="breeds_more">
+											<a class="violet_link" href="https://vk.com/epixx_pets?w=wall-166537407_3">
+												ПОСМОТРЕТЬ ЩЕНКОВ
+												<div class="arrow_purple">
+
+												</div>	
+											</a>
+										</div>
+									</div>
+								</div>
+							</article>
+							<article class="breeds_item">
+								<div>
+									<h3>Чау-Чау</h3>
+								</div>
+								<div class="breeds_about">
+									<div class="breeds_img">
+										<img class="breeds_dog" src="images/breeds_chow_chow.jpg" alt="Чау-Чау">
+									</div>
+									<div class="breeds_description">
+										<div class="breeds_text">
+											<p class="breeds_paragraph">Эти собаки с характером. Они всегда серьезны, но временами проявляют характер.</p>	
+										</div>
+										<div class="breeds_more">
+											<a class="violet_link" href="https://vk.com/epixx_pets?w=wall-166537407_4">
+												ПОСМОТРЕТЬ ЩЕНКОВ
+												<div class="arrow_purple">
+
+												</div>	
+											</a>
+										</div>
+									</div>
+								</div>
+							</article>
+							<article class="breeds_item">
+								<div>
+									<h3>Пудель</h3>
+								</div>
+								<div class="breeds_about">
+									<div class="breeds_img">
+										<img class="breeds_dog" src="images/breeds_pudel.jpg" alt="Пудель">
+									</div>
+									<div class="breeds_description">
+										<div class="breeds_text">
+											<p class="breeds_paragraph">Активные и компанейские собаки. Любят много гулять, обладают отличным чувством юмора.</p>
+										</div>
+										<div class="breeds_more">
+											<a class="violet_link" href="https://vk.com/epixx_pets?w=wall-166537407_5">
+												ПОСМОТРЕТЬ ЩЕНКОВ
+												<div class="arrow_purple">
+
+												</div>	
+											</a>
+										</div>
+									</div>
+								</div>
+							</article>
+						</div>
+					</div>
+				</section>
+				<section id="rewievs">
+					<div class="rewievs_container">
+						<div>
+							<h2 class="h2_black">Отзывы хозяев</h2>
+						</div>
+						<article class="rewiev">
+							<div class="rewiev_item">
+								<div class="commas">
+
+								</div>
+								<span class="name">Татьяна Зверева</span>
+								<time datetime="2018-02-27">27.02.2018</time>
+								<blockquote class="quote">
+									Хочу выразить большую благодарность Вам за это чудо - малыша, который появился у нас в семье. Деликатный, милый, ласковый и нежный белоснежный Уник, в которого я влюбилась с первого взгляда, увидев его фотографию на сайте вашего питомника. Очень умный малыш!
+								</blockquote>
+							</div>
+							<div class="rewiev_image">
+								<img class="rewiev_img" src="images/review_photo.jpg" alt="Человек с собакой">
+								<span class="rewievs_more">Больше отзывов можно найти у нас в <a class="rewievs_link" href="https://vk.com/epixx_pets?w=wall-166537407_6">группе ВК</a></span>
+							</div>
+						</article>
+					</div>
+				</section>
+				<section id="animals">
+					<div class="animals_container">
+						<div class="animals_about">
+							<div class="animals_description">
+								<h2 class="h2_white">Всё о животных</h2>
+								<p class="paragraph_white">Мы ведём активный блог про наших животных в социальных сетях - присоединяйтесь к нам. Полезные материалы про обучение, дрессировку, питание.</p>
+							</div>
+							<div class="icon_animals">
+								<a href="https://vk.com/epixx_pets" class="vk_yellow"></a>
+								<a href="#" class="fb_yellow"></a>
+								<a href="#" class="inst_yellow"></a>
+							</div>
+						</div>
+						<div class="blog">
+							<article class="card">
+								<img src="images/animals_ration.jpg" alt="Пойнтер">	
+								<h3>Правильный рацион для взрослого пса</h3>
+								<div class="card_item">	
+									<a class="violet_link" href="https://vk.com/epixx_pets?w=wall-166537407_7">
+										Читать статью
+										<div class="arrow_purple">
+										
+										</div>
+									</a>	
+								</div>		
+							</article>
+							<article class="card">
+								<img src="images/animals_depression.jpg" alt="Овчарка">
+								<h3>Бывает ли собачья депрессия?</h3>
+								<div class="card_item">	
+									<a class="violet_link" href="https://vk.com/epixx_pets?w=wall-166537407_8">
+										Читать статью
+										<div class="arrow_purple">
+										
+										</div>
+									</a>
+								</div>	
+							</article>
+						</div>
+					</div>
+				</section>
+				<section id="contacts">
+					<div class="contacts_container">
+						<div>
+							<h2 class="h2_contacts">Контакты</h2>
 						</div>	
-						<div class="fr_bulldog_about">	
-							<div class="fr_bulldog_img">	
-								<img src="images/breeds_fr-bulldog.png" alt="Французский бульдог">
-							</div>	
-							<div class="fr_bulldog_desc">	
-								<p class="breeds_text">Идеальный вариант городской собаки - они входят в тройку самых популярных собак на планете. Любят короткие прогулки и хорошо поспать.</p>
-								<a class="breeds_a" href="https://vk.com/epixx_pets?w=wall-166537407_2">Посмотреть щенков<img class="arrow_purple" src="images/breeds_arrow.png" alt="Фиолетовая стрелка"></a>
+						<div class="contacts_info">	
+							<div class="contacts_item">
+								<span class="contacts_title">Адрес</span>
+								<span class="contacts_text">г. Санкт-Петербург, ул. Кирочная 61</span>
 							</div>
-						</div>		
-					</div>
-					<div class="gl_retriever">
-						<div class="breeds_h3">	
-							<h3>Золотистый ретривер</h3>
+							<div class="contacts_item">
+								<span class="contacts_title">E-mail</span>
+								<a href="petshelp@pets.ru" class="contacts_text">petshelp@pets.ru</a>
+							</div>
+							<div class="contacts_item">
+								<span class="contacts_title">Режим работы</span> 
+								<span class="contacts_text">Каждый день с 10:00 до 22:00</span>
+							</div>
+							<div class="contacts_item">
+								<span class="contacts_title">Телефон</span>
+								<a class="contacts_text" href="tel:+79252569877">+7 (925) 256 98 77</a>
+								<span class="contacts_text">Мы принимаем звонки с 10:00 до 21:00</span>
+							</div>	
 						</div>
-						<div class="gl_retriever_about">
-							<div class="gl_retriever_img">	
-								<img src="images/breeds_gl-retriever.png" alt="Золотистый ретривер">
-							</div>	
-							<div class="gl_retriever_desc">	
-								<p class="breeds_text">Добродушные, ориентированные на людей собаки. Они отлично ведут себя с детьми и больными. Могут быть повадырями.</p>
-								<a class="breeds_a" href="https://vk.com/epixx_pets?w=wall-166537407_3">Посмотреть щенков<img class="arrow_purple" src="images/breeds_arrow.png" alt="Фиолетовая стрелка"></a>
-							</div>
-						</div>		
-					</div>
-				</div>
-				<div class="breeds_list-2">
-					<div class="chow-chow">
-						<div class="breeds_h3">
-							<h3>Чау-чау</h3>
-						</div>
-						<div class="chow-chow_about">	
-							<div class="chow-chow_img">
-								<img src="images/breeds_chow-chow.png" alt="Чау-чау">
-							</div>	
-							<div class="chow-chow_desc">	
-								<p class="breeds_text">Эти собаки с характером. Они всегда серьезны, но временами проявляют характер.</p>
-								<a class="breeds_a" href="https://vk.com/epixx_pets?w=wall-166537407_4">Посмотреть щенков<img class="arrow_purple" src="images/breeds_arrow.png" alt="Фиолетовая стрелка"></a>
-							</div>
-						</div>		
-					</div>
-					<div class="pudel">
-						<div class="breeds_h3">
-							<h3>Пудель</h3>
-						</div>
-						<div class="pudel_about">	
-							<div class="chow_chow_img">
-								<img src="images/breeds_pudel.png" alt="Пудель">
-							</div>	
-							<div class="pudel_desc">	
-								<p class="breeds_text">Активные и компанейские собаки. Любят много гулять, обладают отличным чувством юмора.</p>
-								<a class="breeds_a" href="https://vk.com/epixx_pets?w=wall-166537407_5">Посмотреть щенков<img class="arrow_purple" src="images/breeds_arrow.png" alt="Фиолетовая стрелка"></a>
-							</div>
-						</div>		
-					</div>
-				</div>	
-			</section>
-			<section class="rewievs" id="section3">
-				<h2 class="breeds-rewievs_h2">Отзывы хозяев</h2>
-				<div class="rewievs_comment_a">
-					<div class="rewievs_comment">
-						<img src="images/rewievs_commas.png"><br>
-						<span class="rewiev_name"><b>Татьяна Зверева</b></span><br>
-						<time class="time" datetime="2018-02-27">27.02.2018</time>
-						<blockquote class="quote">
-							Хочу выразить большую благодарность Вам за это чудо - малыша, который появился у нас в семье. Деликатный, милый, ласковый и нежный белоснежный Уник, в которого я влюбилась с первого взгляда, увидев его фотографию на сайте вашего питомника. Очень умный малыш!
-					</blockquote>
-					</div>	
-					<div class="rewievs_a">	
-						<img src="images/rewiews_dog.png" alt="Человек с собакой">
-						<span class="rewievs_more">Больше отзывов можно найти у нас в <a class="rewievs_link" href="https://vk.com/epixx_pets?w=wall-166537407_6">группе ВК</a></span>
-					</div>
-				</div>		
-			</section>
-			<section class="about-animals" id="section4">
-				<div class="about-animals-promo">
-					<h2 class="about-kennel-animals_h2">Все о животных</h2>
-					<p class="about-kennel-animals_p">Мы ведём активный блог про наших животных в социальных сетях - присоединяйтесь к нам. Полезные материалы про обучение, дрессировку, питание.</p>
-				</div>
-				<div class="about-animals_dogs">
-					<div class="about-animals_pointer">	
-						<span>Правильный рацион для взрослого пса</span>
-						<a href="https://vk.com/epixx_pets?w=wall-166537407_7">Читать статью</a>
-					</div>	
-					<div class="about-animals_ger-shepherd">
-						<span>Бывает ли собачья депрессия?</span>
-						<a href="https://vk.com/epixx_pets?w=wall-166537407_8">Читать статью</a>
-					</div>
-				</div>	
-			</section>
+					</div>					
+				</section>
+			</div>
 		</main>
-		<footer class="footer" id="section5">
-			<h2 class="ftr_h2">Контакты</h2>
-			<div class="ftr_adress-mail">	
-				<div class="ftr_adress">
-					<span class="ftr_sub">Адрес</span><br>
-					<span class="ftr_text">г. Санкт-Петербург, ул. Кирочная 61</span>
-				</div>
-				<div class="ftr_mail">
-					<span class="ftr_sub">E-mail</span><br> 
-					<span class="ftr_text">petshelp@pets.ru</span>
-				</div>
-			</div>	
-			<div class="ftr_work-phone">	
-				<div class="ftr_work">
-					<span class="ftr_sub">Режим работы</span><br> 
-					<span class="ftr_text">Каждый день с 10:00 до 22:00</span>
-				</div>
-				<div class="ftr-phone">
-					<span class="ftr_sub">Телефон</span><br>
-					<span class="ftr_text">+7 (925) 256 98 77<br> Мы принимаем звонки с 10:00 о 21:00</span>
-				</div>
-			</div>	
-			<div class="ftr_nav">
-				<a href="#section1">О питомнике</a>
-				<a href="#section2">Животные</a>
-				<a href="#section3">Отзывы</a>
-				<a href="#section4">Блог</a>
-				<a href="#section5">Контакты</a>
+		<footer>
+			<div class="ftr_container">
+				<a href="#about">О питомнике</a>
+				<a href="#breeds">Животные</a>
+				<a href="#rewievs">Отзывы</a>
+				<a href="#animals">Блог</a>
+				<a href="#contacts">Контакты</a>
+				<div class="icon_contacts">
+					<a href="https://vk.com/epixx_pets" class="vk_purple"></a>
+					<a href="#" class="fb_purple"></a>
+					<a href="#" class="inst_purple"></a>
+				</div>	
 			</div>	
 		</footer>
-	</body>
+	</div>	
+</body>
 </html>
